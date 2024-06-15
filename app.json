@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "ThundrTask",
+    "name": "ThndrTask",
     "backgroundColor": "transparent",
-    "slug": "ThundrTask",
+    "slug": "ThndrTask",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,14 +14,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.adhammahmoud98.ThundrTask"
+      "bundleIdentifier": "com.adhammahmoud98.ThndrTask"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.adhammahmoud98.ThundrTask"
+      "package": "com.adhammahmoud98.ThndrTask"
     },
     "web": {
       "favicon": "./assets/favicon.png"
