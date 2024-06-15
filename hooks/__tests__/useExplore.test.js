@@ -8,7 +8,7 @@ jest.mock('../../state/services/explore/exploreApi', () => ({
 }));
 
 test('fetches initial tickers on mount', () => {
-  const { result } = renderHook(() => useExplore());
+  renderHook(() => useExplore());
   const getTickersListMock = jest.mocked(useLazyGetTickersQuery);
 
   expect(getTickersListMock).toHaveBeenCalledTimes(1);
