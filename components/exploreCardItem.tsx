@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
-import colors from "../config/colors"; // Adjust the path as needed
+import colors from "../config/colors";
 
 interface ExploreCardItemProps {
   ticker: string;
